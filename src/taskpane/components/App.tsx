@@ -1,6 +1,7 @@
 import * as React from "react";
 import TextInsertion from "./TextInsertion";
 import { makeStyles } from "@fluentui/react-components";
+import CommentList from "./CommentList.tsx";
 
 interface AppProps {
   title: string;
@@ -23,6 +24,7 @@ const App = (props: AppProps) => {
     <div className={styles.root}>
       <h1 className={styles.title}>{title}</h1>
       <TextInsertion />
+      <CommentList />
     </div>
   );
 };
