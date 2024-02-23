@@ -2,6 +2,10 @@
   "plugins": [
     "office-addins"
   ],
+  "rules": {
+    "no-console": "warn",
+    "no-undef": "warn"
+  },
   "extends": [
     "plugin:office-addins/react"
   ]

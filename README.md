@@ -33,6 +33,16 @@ To create a production build, run:
 npm run build
 ```
 
+## Documents
+
+- Fluent UI components: https://react.fluentui.dev/?path=/docs/concepts-introduction--page
+- Word API: https://learn.microsoft.com/en-us/javascript/api/word/word.commentcollection?view=word-js-preview
+
+### Reacts
+
+- React ts cheatsheet: https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/function_components
+- React18: https://react.dev/
+
 ## Legacy Browsers
 
 This template does not include support for IE11. If you need support, add [@vitejs/plugin-legacy](https://github.com/vitejs/vite/tree/main/packages/plugin-legacy).

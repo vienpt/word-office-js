@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useState } from "react";
 import { Button, Field, Textarea, tokens, makeStyles } from "@fluentui/react-components";
-import insertText from "../office-document";
+import { insertText, tryCatch } from "../office-document";
 
 const useStyles = makeStyles({
   instructions: {
@@ -27,7 +27,7 @@ const TextInsertion: React.FC = () => {
   const [text, setText] = useState<string>("Some text.");
 
   const handleTextInsertion = async () => {
-    await insertText(text);
+    await tryCatch(() => insertText(text));
   };
 
   const handleTextChange = async (event: React.ChangeEvent<HTMLTextAreaElement>) => {
