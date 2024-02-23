@@ -37,6 +37,7 @@ npm run build
 
 - Fluent UI components: https://react.fluentui.dev/?path=/docs/concepts-introduction--page
 - Word API: https://learn.microsoft.com/en-us/javascript/api/word/word.commentcollection?view=word-js-preview
+- Some third-party libraries like `office-js-helper` or `office-js-addin-ui` offer helper functions for accessing comments in Word documents.
 
 ### Reacts
 
